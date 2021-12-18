@@ -1,0 +1,26 @@
+body * {
+    text-align: center;
+    color: #000f08;
+    margin: 0;
+    border: 0;
+    padding: 0;
+    font-family: 'Nunito', sans-serif;
+}
+
+.navbar-nav {
+    font-family: 'Nunito', sans-serif;
+}
+
+.Imagen-viaje {
+    max-width: 2.5%!important;
+}
+
+.Imagen-viaje .Texto-viaje {
+    display: block;
+}
+
+.Texto-viaje p {
+    margin-left: 10px;
+    margin-bottom: -1px;
+    color: white;
+}
