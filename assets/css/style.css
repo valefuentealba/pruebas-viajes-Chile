@@ -1,21 +1,32 @@
 body {
     background-color: #000;
-    color: #fff;
     font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+.navbar.fixed-top.scrolled {
+    background-color: #060606d4 !important;
+    transition: background-color 200ms linear;
+}
+
+hr {
+    border: 1px solid #17a2b8;
+    width: 90%;
 }
 
 .fondo {
     background-color: rgba(0, 0, 0, 0.3);
 }
 
-.logo {
-    height: 2vw;
-    margin-bottom: 20px;
+.logo-viajes {
+    width: 50px;
 }
 
-.logo img {
-    width: 8%;
-    fill: none;
+footer .icons i {
+    font-size: 2rem;
 }
 
 .fa-2x {
@@ -39,7 +50,7 @@ body {
 h2 {
     color: white!important;
     text-align: center;
-    font-size: 2.5em!important;
+    font-size: 2em!important;
     vertical-align: middle;
     padding-top: 25px;
     padding-bottom: 15px;
@@ -47,12 +58,17 @@ h2 {
 
 h5 {
     color: white!important;
-    font-size: 1.5em;
+    font-size: 23px;
 }
 
 p {
     color: white!important;
-    font-size: 1.5em;
+    font-size: 20px;
+}
+
+.card img {
+    height: 250px;
+    object-fit: cover;
 }
 
 .typeform-widget {
