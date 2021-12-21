@@ -1,26 +1,70 @@
-body * {
+body {
+    background-color: #000;
+    color: #fff;
+    font-family: 'Nunito', sans-serif;
+}
+
+.fondo {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.logo {
+    height: 2vw;
+    margin-bottom: 20px;
+}
+
+.logo img {
+    width: 8%;
+    fill: none;
+}
+
+.fa-2x {
+    margin: 0 0.3em;
+    color: white!important;
+}
+
+.contacto {
+    height: 550px;
+}
+
+.ancla {
+    text-decoration: none;
+    color: #fff;
+}
+
+.ancla:hover {
+    color: rgb(201, 201, 201);
+}
+
+h2 {
+    color: white!important;
     text-align: center;
-    color: #000f08;
-    margin: 0;
-    border: 0;
-    padding: 0;
-    font-family: 'Nunito', sans-serif;
+    font-size: 2.5em!important;
+    vertical-align: middle;
+    padding-top: 25px;
+    padding-bottom: 15px;
 }
 
-.navbar-nav {
-    font-family: 'Nunito', sans-serif;
+h5 {
+    color: white!important;
+    font-size: 1.5em;
 }
 
-.Imagen-viaje {
-    max-width: 2.5%!important;
+p {
+    color: white!important;
+    font-size: 1.5em;
 }
 
-.Imagen-viaje .Texto-viaje {
+.typeform-widget {
     display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding-top: 50px;
+    padding: 40px 0;
 }
 
-.Texto-viaje p {
-    margin-left: 10px;
-    margin-bottom: -1px;
-    color: white;
+form2 {
+    background-color: rgb(245, 240, 239);
+    padding: 60px;
 }
