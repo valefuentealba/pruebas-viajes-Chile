@@ -7,9 +7,22 @@ body {
     border: 0px;
 }
 
-.navbar.fixed-top.scrolled {
-    background-color: #060606d4 !important;
-    transition: background-color 200ms linear;
+html {
+    scroll-behavior: smooth;
+    font-size: 16px;
+}
+
+header .navbar {
+    transition: all 0.2s;
+}
+
+header nav .navbar-brand {
+    display: flex;
+    align-items: center;
+}
+
+header nav .navbar-brand img {
+    max-width: 25px;
 }
 
 hr {
