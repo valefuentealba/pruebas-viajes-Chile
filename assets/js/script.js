@@ -1,19 +1,18 @@
-//Fondo scroll a navbar
-$(window).scroll(function() {
-
-    if ($(this).scrollTop() > 100) {
-        $(".navbar").css({
-            "background": "#17a2b8"
-        })
-    } else {
-        $(".navbar").css({
-            "background": "transparent"
-        })
-    }
-
-})
-
-//Color navbar
-$(".navbar-toggler").click(function() {
-    $(".navbar").toggleClass('bg-info');
+$(document).ready(function() {
+    $("a").click(function() {
+        var gato = this.hash;
+        $("html, body").animate({
+                scrollTop: $(gato).offset().top - 50
+            },
+            800
+        );
+    });
+    $(nav).scrollTop(function() {
+        var color = this.bash;
+        $(color).body("#ffffff").color("#000000");
+    });
 });
+
+$(function() {
+    $('[data-toggle="tooltip"]').tooltip()
+})
