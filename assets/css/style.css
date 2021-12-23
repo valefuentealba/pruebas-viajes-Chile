@@ -11,10 +11,6 @@ html {
     scroll-behavior: smooth;
 }
 
-header .navbar {
-    transition: all 0.2s;
-}
-
 header nav .navbar-brand {
     display: flex;
     align-items: center;
